@@ -9,7 +9,8 @@ export default {
   },
   output: {
     filename: "js/[name].js",
-    path: path.resolve(process.cwd(), "./public")
+    path: path.resolve(process.cwd(), "./public"),
+    assetModuleFilename: "images/[name][ext]"
   },
   devtool: "source-map",
   module: {
